@@ -1,1 +1,1 @@
-"{\"id\":\"2d7de1cb-e81c-448c-8adc-37bb5856e0b0\",\"version\":\"1.0\",\"type\":\"Composite\",\"block_type\":\"composite\",\"blocks\":[]}"
+{"id":"2d7de1cb-e81c-448c-8adc-37bb5856e0b0","version":"1.0","type":"Composite","block_type":"composite","blocks":[{"id":"ec80aa82-59a8-4da2-8223-4ff8b96cabb1","type":"Foundation","block_type":"datafile","version":"1.0","file_path":"REPOSITORY/Git-repo/DPL Store/Countries.csv","output":"file1"}]}
