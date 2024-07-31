@@ -30,6 +30,7 @@
   </basics>
   <resources>
     <resource name="new_recording.ds" type="ds" path="REPOSITORY/Git-repo/new_recording.ds"/>
+    <resource name="hash-dpl.csv" type="csv" path="REPOSITORY/Git-repo/DPL Store/hash-dpl.csv"/>
   </resources>
   <testnodes>
     <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode"/>
@@ -40,7 +41,13 @@
     <bundle name="oracle" version="10.2.0.5"/>
     <bundle name="ds" version="3.0"/>
   </bundles>
-  <datasources/>
+  <datasources>
+    <dpl name="HASH-DPL" type="DynamicDicDPL" langtype="java" method="setup">
+      <argument name="resource" dpl="Resources" method="getResourceByName">
+        <argument name="file" value="hash-dpl.csv"/>
+      </argument>
+    </dpl>
+  </datasources>
   <options>
     <options type="global">
       <opt name="trustAllSSLCertificates" value="false"/>
