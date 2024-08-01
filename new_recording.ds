@@ -1,11 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Anuradha_Arani_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='edbcf869-570c-45d6-a64d-0a874744b4ec' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c0c0cb81-413e-4e57-95a7-8c543b69dc4b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(0, _in(div("product_3")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_3&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrTitle' value='span("Ruby on Rails Baseball Jersey")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='span("info[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Ruby on Rails Baseball Jersey")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_3&apos;]/div/div[1]/a/span")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Ruby on Rails Baseball Jersey"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[3]/div/div/a/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_3&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/span[@class=&apos;info&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;span[title="Ruby on Rails Baseball Jersey"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='da896748-e8ee-45f7-9ce5-0f9c66da2ad7' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='radio(7, _in(div("product-variants")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='radio(7, _in(div({&apos;id&apos;:&apos;product-variants&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="variant_id_24"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='radio("variant_id_24")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='radio("variant_id[7]")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='radio("24")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;variant_id_24&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/ul/li[8]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;variant_id_24&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#variant_id_24&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="24"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='56b061ef-4cff-4296-b2a0-66617822885b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(3, _in(nav("breadcrumbs")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(3, _in(nav({&apos;id&apos;:&apos;breadcrumbs&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Products[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//nav[@id=&apos;breadcrumbs&apos;]/ol/li[2]/span/a/span")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Products"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/nav/ol/li[2]/span/a/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;breadcrumbs&apos;)/ol[@class=&apos;breadcrumb&apos;]/li[2]/span[1]/a[1]/span[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+  </testcase>
