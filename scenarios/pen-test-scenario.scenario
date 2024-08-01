@@ -84,8 +84,8 @@
       <opt name="RampDownSeconds" value="0"/>
       <opt name="MaxRampDownTime" value="0"/>
       <opt name="tolerance" value="0"/>
-      <opt name="global_concurrent_users" value="1"/>
-      <opt name="testnode_concurrent_users" value="1"/>
+      <opt name="global_concurrent_users" value="0"/>
+      <opt name="testnode_concurrent_users" value="0"/>
     </options>
     <options type="commandline">
       <opt name="async" value="false"/>
