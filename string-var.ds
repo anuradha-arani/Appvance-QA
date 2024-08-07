@@ -3,7 +3,7 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
-    <step action='store' value='"First string variable"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e739db4c-8e41-4dc2-aa21-0481c330a309' uiType='base'>
+    <step action='store' value='10' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f94fd3ff-dcb5-4013-96de-465c0fcfd79c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='str-var1' selected='true' fallback='true'></accessor>
       </dialect>
