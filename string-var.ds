@@ -1,11 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Anuradha_Arani_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='store' value='"First string variable"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e739db4c-8e41-4dc2-aa21-0481c330a309' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='str-var1' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='log' value='str-var1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e84cd915-cdd1-4b9d-9b1a-2c9eaa31f97f' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='87a2ea86-8804-45bd-9179-72be96bf4579' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+  </testcase>
