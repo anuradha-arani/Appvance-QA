@@ -56,7 +56,7 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='store' value='&apos;quantity&apos;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01c33679-885b-47d4-b94a-dc82bb99c4eb' uiType='base'>
+    <step action='store' value='quantity' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01c33679-885b-47d4-b94a-dc82bb99c4eb' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='number_of_p1' selected='true' fallback='true'></accessor>
       </dialect>
