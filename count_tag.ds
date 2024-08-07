@@ -4,14 +4,10 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='addSmartTagsLibrary' value='"{ds}/smart-tags/count-tag.stags"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fa9a75b8-7709-4875-9c44-de63ba0f256f' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='102240f7-1457-42e3-84c8-f01887d9f9bd' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c2bf1410-da86-4114-be41-04eabc5f4088' uiType='base'>
       <dialect type='sahi'>
@@ -59,6 +55,14 @@
         <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
+    </step>
+    <step action='store' value='&apos;quantity&apos;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01c33679-885b-47d4-b94a-dc82bb99c4eb' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='number_of_p1' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='log' value='number_of_p1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71da07d9-99ca-4d17-9aea-df49b0eb7ffd' uiType='base'>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4451a775-cc02-4027-b77e-66a82f87e7ca' uiType='base'>
       <dialect type='sahi'>
