@@ -65,6 +65,23 @@
     <step action='log' value='numberofp1' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71da07d9-99ca-4d17-9aea-df49b0eb7ffd' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
+    <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c5213878-1a7d-42b6-9a71-4f2be80a990c' uiType='conditional'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='quantitytag(&apos;quantity&apos;)&gt;0' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='2f4d9580-7f2e-4b50-961a-e3ee02953da4' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='val1' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='log' value='"there is a tag found" val1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='49fbe83b-98e7-4bd7-8f49-ae154aa1005f' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='18530bce-0409-49cf-9aeb-2b289673ed17' uiType='end' sibling='c5213878-1a7d-42b6-9a71-4f2be80a990c'>
+      <dialect type='sahi'></dialect>
+    </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4451a775-cc02-4027-b77e-66a82f87e7ca' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
