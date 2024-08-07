@@ -67,7 +67,12 @@
     </step>
     <step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c5213878-1a7d-42b6-9a71-4f2be80a990c' uiType='conditional'>
       <dialect type='sahi'>
-        <accessor type='unknown' value='quantitytag(&apos;quantity&apos;)&gt;0' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='(quantitytag(&apos;quantity&apos;) &gt; "0")' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='(quantitytag(&apos;quantity&apos;) &gt; 0)' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='(quantitytag(&apos;quantity&apos;) &lt;&gt; 0)' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='(quantitytag(&apos;quantity&apos;) &lt;&gt; 0' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='quantitytag(&apos;quantity&apos;) &lt;&gt; 0' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='quantitytag(&apos;quantity&apos;)&gt;0' selected='false' fallback='true'></accessor>
         <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
@@ -76,7 +81,7 @@
         <accessor type='unknown' value='val1' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='"there is a tag found" val1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='49fbe83b-98e7-4bd7-8f49-ae154aa1005f' uiType='base'>
+    <step action='log' value='"there is a tag found"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='49fbe83b-98e7-4bd7-8f49-ae154aa1005f' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='18530bce-0409-49cf-9aeb-2b289673ed17' uiType='end' sibling='c5213878-1a7d-42b6-9a71-4f2be80a990c'>
