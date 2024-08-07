@@ -56,12 +56,12 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='store' value='getText($extcount)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01c33679-885b-47d4-b94a-dc82bb99c4eb' uiType='base'>
+    <step action='store' value='getText($extcount)' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01c33679-885b-47d4-b94a-dc82bb99c4eb' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='number_of_p1' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='number_of_p1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71da07d9-99ca-4d17-9aea-df49b0eb7ffd' uiType='base'>
+    <step action='log' value='number_of_p1' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71da07d9-99ca-4d17-9aea-df49b0eb7ffd' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4451a775-cc02-4027-b77e-66a82f87e7ca' uiType='base'>
