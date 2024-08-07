@@ -3,6 +3,14 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='store' value='"string value for display"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8ca2dd5b-6b34-4334-ba62-7727b04e3d08' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='var-n' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='log' value='var-n' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4638da4a-845a-48de-a69a-4c5960234dbf' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6c53fb5b-338d-40b6-82d4-5931cdb5e3f2' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
