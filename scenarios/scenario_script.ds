@@ -161,7 +161,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"anuradha.arani@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5876c32f-7339-46c7-bb91-e91fccc61c9b' uiType='base'>
+    <step action='setValue' value='"anuradha.arani@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5876c32f-7339-46c7-bb91-e91fccc61c9b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -177,7 +177,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='646ac804-d63e-4144-b34d-df531cb1e04e' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='646ac804-d63e-4144-b34d-df531cb1e04e' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success[1]")' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='submit("commit[1]")' selected='false' fallback='true'></accessor>
