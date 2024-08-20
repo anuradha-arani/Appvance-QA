@@ -4,9 +4,7 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4b7866ca-c516-4dbd-a18d-b14ef8934bc0' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='735cbd36-bc4b-4cec-b6e5-f075ee87de9b' uiType='base'>
       <dialect type='sahi'>
@@ -111,9 +109,7 @@
       </dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='59dc81f2-1996-4f45-811f-45d4fb7f2e69' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2fb7188b-c9d7-4c58-821b-d5b6a6b7f07c' uiType='base'>
       <dialect type='sahi'>
@@ -146,7 +142,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Spree Bag"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='032a2ff0-eae8-4f81-a905-b1323b004d6c' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='032a2ff0-eae8-4f81-a905-b1323b004d6c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(1, _in(form("update-cart")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(1, _in(form({&apos;id&apos;:&apos;update-cart&apos;})))' selected='false' fallback='true'></accessor>
